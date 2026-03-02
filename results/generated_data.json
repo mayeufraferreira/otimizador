@@ -1,0 +1,562 @@
+{
+  "regions": [
+    {
+      "id": "region-1",
+      "name": "DC-US-East",
+      "renewable_pct": 58.74540118847362,
+      "carbon_intensity": 516.0571445127932,
+      "cost_per_kwh": 0.14956785460347372,
+      "cpu_available": 121,
+      "avg_latency_ms": 226.24074561769746,
+      "status": "active"
+    },
+    {
+      "id": "region-2",
+      "name": "DC-EU-West",
+      "renewable_pct": 56.55994520336203,
+      "carbon_intensity": 444.64668897345587,
+      "cost_per_kwh": 0.15278822749859844,
+      "cpu_available": 122,
+      "avg_latency_ms": 248.3229031118418,
+      "status": "active"
+    },
+    {
+      "id": "region-3",
+      "name": "DC-Asia-SE",
+      "renewable_pct": 55.205844942958024,
+      "carbon_intensity": 517.5927881729596,
+      "cost_per_kwh": 0.15197862337921011,
+      "cpu_available": 114,
+      "avg_latency_ms": 227.27299868828402,
+      "status": "active"
+    },
+    {
+      "id": "region-4",
+      "name": "DC-US-West",
+      "renewable_pct": 56.83404509853433,
+      "carbon_intensity": 464.339379436763,
+      "cost_per_kwh": 0.1445941543591737,
+      "cpu_available": 118,
+      "avg_latency_ms": 231.64916560792167,
+      "status": "active"
+    },
+    {
+      "id": "region-5",
+      "name": "DC-EU-North",
+      "renewable_pct": 61.118528947223794,
+      "carbon_intensity": 451.15950885216336,
+      "cost_per_kwh": 0.13901147156484522,
+      "cpu_available": 117,
+      "avg_latency_ms": 238.24279936868146,
+      "status": "active"
+    },
+    {
+      "id": "region-6",
+      "name": "DC-US-East",
+      "renewable_pct": 62.851759613930135,
+      "carbon_intensity": 455.9739025726688,
+      "cost_per_kwh": 0.14434162652192667,
+      "cpu_available": 121,
+      "avg_latency_ms": 221.8580165087999,
+      "status": "active"
+    },
+    {
+      "id": "region-7",
+      "name": "DC-EU-West",
+      "renewable_pct": 61.07544851901439,
+      "carbon_intensity": 453.6419298949833,
+      "cost_per_kwh": 0.1335612382316467,
+      "cpu_available": 128,
+      "avg_latency_ms": 258.62528132298235,
+      "status": "active"
+    },
+    {
+      "id": "region-8",
+      "name": "DC-Asia-SE",
+      "renewable_pct": 63.08397348116461,
+      "carbon_intensity": 464.36910153386964,
+      "cost_per_kwh": 0.1343441307361532,
+      "cpu_available": 123,
+      "avg_latency_ms": 237.60609974958405,
+      "status": "active"
+    },
+    {
+      "id": "region-9",
+      "name": "DC-US-West",
+      "renewable_pct": 56.220382348447785,
+      "carbon_intensity": 479.61415280890157,
+      "cost_per_kwh": 0.1328253245067652,
+      "cpu_available": 128,
+      "avg_latency_ms": 230.35119926400066,
+      "status": "active"
+    },
+    {
+      "id": "region-10",
+      "name": "DC-EU-North",
+      "renewable_pct": 61.62522284353982,
+      "carbon_intensity": 464.93688608715286,
+      "cost_per_kwh": 0.14448163250826743,
+      "cpu_available": 120,
+      "avg_latency_ms": 227.39417822102106,
+      "status": "active"
+    },
+    {
+      "id": "region-11",
+      "name": "DC-US-East",
+      "renewable_pct": 64.69584627764559,
+      "carbon_intensity": 502.0106258688892,
+      "cost_per_kwh": 0.15454797459754052,
+      "cpu_available": 127,
+      "avg_latency_ms": 243.91599915244342,
+      "status": "active"
+    },
+    {
+      "id": "region-12",
+      "name": "DC-EU-West",
+      "renewable_pct": 64.21874235023117,
+      "carbon_intensity": 447.0794001641535,
+      "cost_per_kwh": 0.13670358869805946,
+      "cpu_available": 110,
+      "avg_latency_ms": 233.01321323053057,
+      "status": "active"
+    },
+    {
+      "id": "region-13",
+      "name": "DC-Asia-SE",
+      "renewable_pct": 58.88677289689481,
+      "carbon_intensity": 461.70792254191167,
+      "cost_per_kwh": 0.1518897002196463,
+      "cpu_available": 117,
+      "avg_latency_ms": 231.23738038749525,
+      "status": "active"
+    },
+    {
+      "id": "region-14",
+      "name": "DC-US-West",
+      "renewable_pct": 60.42696083158248,
+      "carbon_intensity": 451.273937997981,
+      "cost_per_kwh": 0.15125272753809693,
+      "cpu_available": 111,
+      "avg_latency_ms": 259.4754774640207,
+      "status": "active"
+    },
+    {
+      "id": "region-15",
+      "name": "DC-EU-North",
+      "renewable_pct": 62.722447692966576,
+      "carbon_intensity": 455.89725452273376,
+      "cost_per_kwh": 0.13213253081096646,
+      "cpu_available": 126,
+      "avg_latency_ms": 248.2742937539047,
+      "status": "active"
+    },
+    {
+      "id": "region-16",
+      "name": "DC-US-East",
+      "renewable_pct": 62.29007168040987,
+      "carbon_intensity": 501.7016277348756,
+      "cost_per_kwh": 0.13377707164161817,
+      "cpu_available": 117,
+      "avg_latency_ms": 224.63476238100517,
+      "status": "active"
+    },
+    {
+      "id": "region-17",
+      "name": "DC-EU-West",
+      "renewable_pct": 63.63103425875594,
+      "carbon_intensity": 489.86385014620464,
+      "cost_per_kwh": 0.13994155259646357,
+      "cpu_available": 111,
+      "avg_latency_ms": 232.43929286862647,
+      "status": "active"
+    },
+    {
+      "id": "region-18",
+      "name": "DC-Asia-SE",
+      "renewable_pct": 58.25183322026747,
+      "carbon_intensity": 498.36849426704515,
+      "cost_per_kwh": 0.1473013793125251,
+      "cpu_available": 127,
+      "avg_latency_ms": 238.88859700647797,
+      "status": "active"
+    },
+    {
+      "id": "region-19",
+      "name": "DC-US-West",
+      "renewable_pct": 56.19594245938302,
+      "carbon_intensity": 497.05958297783957,
+      "cost_per_kwh": 0.15025884116680552,
+      "cpu_available": 121,
+      "avg_latency_ms": 250.83868719818244,
+      "status": "active"
+    },
+    {
+      "id": "region-20",
+      "name": "DC-EU-North",
+      "renewable_pct": 59.93795596364391,
+      "carbon_intensity": 481.8186263505595,
+      "cost_per_kwh": 0.1422609844406052,
+      "cpu_available": 110,
+      "avg_latency_ms": 224.31565707973218,
+      "status": "active"
+    }
+  ],
+  "workloads": [
+    {
+      "id": "workload-1",
+      "cpu_required": 17,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-2",
+      "cpu_required": 12,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-3",
+      "cpu_required": 9,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-4",
+      "cpu_required": 13,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-5",
+      "cpu_required": 26,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-6",
+      "cpu_required": 24,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-7",
+      "cpu_required": 7,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-8",
+      "cpu_required": 26,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-9",
+      "cpu_required": 14,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-10",
+      "cpu_required": 17,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-11",
+      "cpu_required": 26,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-12",
+      "cpu_required": 8,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-13",
+      "cpu_required": 29,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-14",
+      "cpu_required": 23,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-15",
+      "cpu_required": 17,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-16",
+      "cpu_required": 6,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-17",
+      "cpu_required": 24,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-18",
+      "cpu_required": 16,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-19",
+      "cpu_required": 28,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-20",
+      "cpu_required": 14,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-21",
+      "cpu_required": 7,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-22",
+      "cpu_required": 13,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-23",
+      "cpu_required": 10,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-24",
+      "cpu_required": 15,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-25",
+      "cpu_required": 22,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-26",
+      "cpu_required": 15,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-27",
+      "cpu_required": 26,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-28",
+      "cpu_required": 28,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-29",
+      "cpu_required": 29,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-30",
+      "cpu_required": 24,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-31",
+      "cpu_required": 29,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-32",
+      "cpu_required": 20,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-33",
+      "cpu_required": 11,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-34",
+      "cpu_required": 10,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-35",
+      "cpu_required": 14,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-36",
+      "cpu_required": 9,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-37",
+      "cpu_required": 8,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-38",
+      "cpu_required": 29,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-39",
+      "cpu_required": 16,
+      "priority": "medium",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-40",
+      "cpu_required": 11,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-41",
+      "cpu_required": 21,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-42",
+      "cpu_required": 24,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-43",
+      "cpu_required": 14,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-44",
+      "cpu_required": 19,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-45",
+      "cpu_required": 26,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-46",
+      "cpu_required": 11,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-47",
+      "cpu_required": 20,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-48",
+      "cpu_required": 7,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-49",
+      "cpu_required": 6,
+      "priority": "low",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    },
+    {
+      "id": "workload-50",
+      "cpu_required": 6,
+      "priority": "high",
+      "current_region": null,
+      "latency_threshold_ms": 2000.0
+    }
+  ],
+  "metadata": {
+    "num_regions": 20,
+    "num_workloads": 50,
+    "generation_seed": 42,
+    "variance": 0.2
+  }
+}

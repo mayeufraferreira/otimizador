@@ -107,3 +107,57 @@ Este comando gera:
   - `analysis_by_mode.csv` - Estatísticas por modo
   - `mode_comparisons.csv` - Comparações entre modos
   - `workload_distribution.csv` - Distribuição por prioridade
+
+### 5. Executar Experimentos de Teste
+
+```bash
+python src/tests/run_experiments.py
+```
+
+Este comando:
+- Executa cenários de teste predefinidos
+- Valida o comportamento do motor de decisão
+- Testa diferentes modos operacionais com workloads específicos
+
+### 6. Executar Experimentos Científicos
+
+```bash
+python simulator/run_scientific_experiments.py
+```
+
+Este comando:
+- Executa experimentos científicos completos
+- Gera dados estatísticos detalhados
+- Realiza análises comparativas entre os modos operacionais
+
+### 7. Gerar Visualizações e Gráficos
+
+```bash
+python analysis/visualizations.py results/raw_results.csv
+```
+
+Ou especifique um diretório de saída customizado:
+
+```bash
+python analysis/visualizations.py results/raw_results.csv results/visualizations
+```
+
+Este comando gera automaticamente todos os tipos de gráficos:
+- **Comparação por Modo Operacional**: Métricas comparativas entre modos com box plots e intervalos de confiança (95%)
+- **Análise de Scores**: Distribuição de scores individuais (latência, carbono, custo) e score final por modo
+- **Métricas Separadas**: Gráficos detalhados individuais para cada métrica (latência, renovável, carbono, custo, score)
+- **Análise por Cenários**: Performance por categoria de cenário científico
+- **Sensibilidade à Variância**: Impacto da variância nas métricas e scores
+- **Distribuição de Regiões**: Top regiões mais selecionadas geral e por modo operacional
+- **Análise por Prioridade**: Métricas agrupadas por prioridade de workload
+- **Escalabilidade**: Análise de impacto do número de regiões e workloads
+- **Correlações**: Mapa de calor de correlações entre métricas e scores
+- **Taxa de Sucesso**: Taxa de alocação bem-sucedida por modo
+- **Métricas por Região**: Análise individual de latência, custo e sustentabilidade por região (Top 20)
+- **Trade-offs**: Análise de compromissos entre latência vs sustentabilidade, latência vs custo, e custo vs sustentabilidade
+- **Distribuição por Cenário com IC**: Latência, custo e sustentabilidade por categoria de cenário com intervalos de confiança (95%)
+- **Análise DoE/Fatorial**: Design of Experiments completo com efeitos principais, interações e diagrama de Pareto
+
+Todos os gráficos são salvos em formato PNG de alta resolução (300 DPI).
+
+📖 **Para descrição detalhada de cada gráfico, consulte**: [analysis/VISUALIZATIONS_GUIDE.md](analysis/VISUALIZATIONS_GUIDE.md)

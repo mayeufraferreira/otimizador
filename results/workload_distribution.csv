@@ -1,0 +1,4 @@
+priority,total_workloads,successful,failed,success_rate_%,avg_cpu_required,avg_score
+low,64,64,0,100.0,14.75,0.7355082455759125
+medium,48,48,0,100.0,18.0,0.7355082455759124
+high,88,88,0,100.0,18.363636363636363,0.7355082455759128
