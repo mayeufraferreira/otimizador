@@ -1,0 +1,2 @@
+total_simulations,successful_allocations,failed_allocations,overall_success_rate_%,unique_modes,unique_workloads,unique_regions_selected,avg_valid_regions_per_workload,avg_score_final,best_score,worst_score
+200,200,0,100.0,4,50,3,20.0,0.7355082455759127,0.7942502192368734,0.6997901990670115
